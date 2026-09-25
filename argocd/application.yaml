@@ -9,7 +9,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/OWNER/lab2-gitops-argocd.git
+    repoURL: https://github.com/Joakim31/lab02-gitops-argocd.git
     targetRevision: main
     path: overlays/production
   destination:
