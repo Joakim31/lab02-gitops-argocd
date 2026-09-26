@@ -6,9 +6,9 @@ resources:
 
 # El bump de versión se hace aquí: cambia newTag y ArgoCD sincroniza el deploy.
 images:
-  - name: ghcr.io/OWNER/REPO
-    newName: ghcr.io/OWNER/REPO
-    newTag: "REEMPLAZAR_CON_SHA"
+  - name: ghcr.io/joakim31/lab04-registry
+    newName: ghcr.io/joakim31/lab04-registry
+    newTag: "17216404006c69e20dfeb18ff2179d23d904ca1a"
 
 replicas:
   - name: app

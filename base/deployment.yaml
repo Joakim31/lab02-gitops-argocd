@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: app
-          image: ghcr.io/OWNER/REPO:latest   # el overlay fija el tag real
+          image: ghcr.io/joakim31/lab04-registry:latest   # el overlay fija el tag real
           ports:
             - containerPort: 3000
           readinessProbe:
